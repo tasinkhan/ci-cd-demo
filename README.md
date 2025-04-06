@@ -1,30 +1,27 @@
-Python CI/CD Project
-This repository demonstrates a CI/CD pipeline for a Python project with:
+# Python CI/CD Project
 
-Pre-commit hooks for automatic code formatting and linting.
+This repository demonstrates a CI/CD pipeline for a Python project with the following features:
 
-GitHub Actions for continuous integration, including:
+- Pre-commit hooks for automatic code formatting and linting.
+- GitHub Actions for continuous integration, including:
+  - Linting with flake8
+  - Code formatting check with black
+  - Running tests with pytest
 
-Linting with flake8
+## Project Setup
 
-Code formatting check with black
+### Prerequisites
 
-Running tests with pytest
-
-Project Setup
-Prerequisites
 Make sure you have the following installed:
 
-Python 3.12 (or your preferred version)
+- Python 3.12 (or your preferred version)
+- `pip` for managing dependencies
 
-pip for managing dependencies
+### Installing Dependencies
 
-Installing Dependencies
 Clone the repository:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
 Create a virtual environment and activate it:
@@ -82,7 +79,7 @@ This repository uses GitHub Actions to run the following checks whenever a commi
 
 Checkout code: Pulls the latest code from the repository.
 
-Set up Python: Installs Python 3.11.
+Set up Python: Installs Python 3.12.
 
 Install dependencies: Installs required packages from requirements.txt and additional tools (pytest, flake8, black).
 
